@@ -4,20 +4,9 @@ channels:
   - conda-forge
 
 dependencies:
-  # Core
   - python=3.11
-
-  # Numérico (único backend de cálculo)
   - numpy=1.26
-
-  # I/O (solo para leer Excel)
   - pandas=2.2
   - openpyxl=3.1
-
-  # Visualización básica
   - matplotlib=3.8
-
-  # Desarrollo (opcional pero útil)
-  - pytest=8.0
-
-  # Evitar pip salvo que sea estrictamente necesario
+  - mplcursors=0.5
