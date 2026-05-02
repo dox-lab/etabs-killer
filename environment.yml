@@ -1,0 +1,13 @@
+name: structural-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.2
+  - openpyxl>=3.1
+  - matplotlib>=3.8
+  - pytest>=8.0
+  - pip
+  - pip:
+      - -e .
